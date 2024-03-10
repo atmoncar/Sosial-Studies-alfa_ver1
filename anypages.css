@@ -1,0 +1,392 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    max-width: 1920px;
+
+    background: linear-gradient(320deg,#8e9eab,#eef2f3);
+    background-size: cover;
+    background-attachment: fixed;
+    
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header-in{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.logo{
+    color: #bc4749;
+    font-size: 50px;
+    text-transform: uppercase;
+    margin-left: 30px;
+    border: solid 10px;
+    border-radius: 15px;
+}
+
+.logoex{
+    color: #bc4749;
+    font-size: 20px;
+    margin-left: 5px;
+}
+.logoex2{
+    color: black;
+    font-size: 25px;
+    margin: 5px;
+}
+
+.extralogo{
+    display: flex;
+    transition:  0.2s ;
+}
+
+.extralogo:hover{
+    transform: scale(105%);
+}
+
+.extralogo:active{
+    transform: scale(95%);
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    margin: 10px;
+    transition: 0.2s;
+}
+
+.nav-link:hover{
+    transform: scale(105%);
+    color: #bc4749;
+}
+
+.nav-link:active{
+    transform: scale(95%);
+}
+
+.name{
+    font-size: 30px;
+    text-align: center;
+}
+.header{
+    border-bottom:solid 2px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.main{
+    max-width: 1350px;
+    margin-left: 250px;
+    text-align:justify;
+}
+
+.jir{
+    font-weight: 900;
+    color: #bc4749;
+}
+
+.correct{
+    border: 3px solid green;
+}
+
+.incorrect{
+    border: 3px solid red;
+}
+
+/*
+#test{
+    margin-left: 200px;
+    margin-top: 20px;
+    margin-right: 200px;
+}
+
+.vap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#button{
+    margin-top: 30px;
+    font-size: 30px;
+    padding: 5px;
+    margin-bottom: 30px;
+    margin-left: ;
+}
+
+.argument{
+    max-width: 600px;
+}
+
+.var{
+    min-width: ;
+    max-width: ;
+}
+
+input{
+    padding: 15px;
+    font-size: 14px;
+    width:50px;
+}
+*/
+
+#test{
+    display: flex;
+    margin-top: 30px 30px 0px 30px;
+    justify-content: center;
+}
+
+#prop{
+    
+}
+
+#variant{
+    
+}
+
+#inputs{
+    
+}
+
+.props{
+    margin-top: 20px;
+    max-width: 800px;
+}
+
+.variants{
+    margin-top: 20px;
+}
+
+.inp{
+    margin-top: 20px;
+    height: 50px;
+    width: 50px;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+#putton{
+    text-align: center;
+
+}
+
+#button{
+    margin-top: 30px;
+    font-size: 25px;
+    padding: 5px;
+    margin-bottom: 30px;
+    border-radius: 15px
+}
+
+#clear{
+    margin-top: 30px;
+    font-size: 25px;
+    padding: 5px;
+    margin-bottom: 30px;
+    border-radius: 15px;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1600px){
+    .logo{
+        font-size: 40px;
+        margin-left: 15px;
+        border: solid 5px;
+        border-radius: 15px;
+    }
+
+    .logoex{
+        font-size: 15px;
+    }
+
+    .logoex2{
+        font-size: 15px;
+    }
+
+
+    .main{
+        max-width: 1565px;
+        margin-left: 25px;
+    }
+
+    .name{
+    font-size: 25px;
+    }
+
+    .nav-link{
+    }
+}
+
+@media screen and (max-width: 1200px){
+    .logo{
+        font-size: 40px;
+        margin-left: 15px;
+        border: solid 5px;
+        border-radius: 15px;
+    }
+
+    .logoex{
+        font-size: 15px;
+    }
+
+    .logoex2{
+        font-size: 15px;
+    }
+
+
+    .main{
+        max-width: 1185px;
+        margin-left: 5px;
+    }
+
+    .name{
+    font-size: 25px;
+    }
+
+    .nav-link{
+    }
+}
+
+@media screen and (max-width: 998px){
+    .logo{
+        font-size: 40px;
+        margin-left: 15px;
+        border: solid 5px;
+        border-radius: 15px;
+    }
+
+    .logoex{
+        font-size: 15px;
+    }
+
+    .logoex2{
+        font-size: 15px;
+    }
+
+
+    .main{
+        max-width: 983px;
+        margin-left: 5px;
+    }
+
+    .name{
+    font-size: 25px;
+    }
+
+    .nav-link{
+    }
+}
+
+@media screen and (max-width: 768px){
+    .logo{
+        font-size: 40px;
+        margin-left: 15px;
+        border: solid 5px;
+        border-radius: 15px;
+    }
+
+    .logoex{
+        font-size: 15px;
+    }
+
+    .logoex2{
+        font-size: 15px;
+    }
+
+
+    .main{
+        max-width: 753px;
+        margin-left: 5px;
+    }
+
+    .name{
+    font-size: 20px;
+    }
+
+    .nav-link{
+    }
+}
+
+@media screen and (max-width: 510px){
+    .logo{
+        font-size: 30px;
+        margin-left: 15px;
+        border: solid 5px;
+        border-radius: 15px;
+    }
+
+    .logoex{
+        font-size: 10px;
+    }
+
+    .logoex2{
+        font-size: 10px;
+    }
+
+
+    .main{
+        max-width: 460px;
+        margin-left: 5px;
+    }
+
+    .name{
+    font-size: 15px;
+    }
+
+    .nav-link{
+    font-size: 75%;
+    }
+}
+
+@media screen and (max-width: 375px){
+    .logo{
+        font-size: 30px;
+        margin-left: 15px;
+        border: solid 5px;
+        border-radius: 15px;
+    }
+
+    .logoex{
+        font-size: 10px;
+    }
+
+    .logoex2{
+        font-size: 10px;
+    }
+
+
+    .main{
+        max-width: 330px;
+        margin-left: 5px;
+    }
+
+    .name{
+    font-size: 15px;
+    }
+
+    .nav-link{
+    font-size: 75%;
+    }
+}

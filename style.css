@@ -1,0 +1,295 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    max-width: 1920px;
+
+    background: linear-gradient(320deg,#8e9eab,#eef2f3);
+    background-size: cover;
+    background-attachment: fixed;
+
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header-in{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 5px;
+}
+
+.logo{
+    color: #bc4749;
+    font-size: 50px;
+    text-transform: uppercase;
+    margin-left: 30px;
+    border: solid 10px;
+    border-radius: 15px;
+}
+
+.nav{
+    font-size: 18px;
+    margin-right: 30px;
+}
+
+.nav-link{
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px;
+    text-decoration: none;
+    color: black;
+    transition:color 0.2s linear;
+    border: solid 2px;
+    border-radius: 5px 0px 5px 0px ;
+    transition:  0.2s ;
+}
+.nav-link:hover{
+    color: #bc4749;
+    transform: scale(105%);
+}
+
+.nav-link:active{
+    color: #bc4749;
+    transform: scale(95%);
+}
+
+.logoex{
+    color: #bc4749;
+    font-size: 20px;
+    margin-left: 5px;
+}
+.logoex2{
+    color: black;
+    font-size: 25px;
+    margin: 5px;
+}
+
+.extralogo{
+    display: flex;
+    transition:  0.2s ;
+}
+
+.extralogo:hover{
+    transform: scale(105%);
+}
+
+.extralogo:active{
+    transform: scale(95%);
+}
+
+.middle{
+    display: flex;
+    justify-content: space-between;
+}
+
+.inmiddle{
+    text-align: justify;
+    font-size: 18px;
+    margin: 30px;
+}
+
+.bok{
+    height: 866px;
+}
+
+.header{
+    border-bottom: solid 2px;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1600px){
+    .logo{
+        font-size: 50px;
+        margin-left: 30px;
+    }
+
+    .logoex{
+        font-size: 20px;
+    }
+
+    .logoex2{
+        font-size: 20px;
+    }
+
+    .inmiddle{
+        text-align: justify;
+        max-width: 1385px;
+        margin-left: 100px;
+        font-size: 18px;
+    }
+    
+}
+@media screen and (max-width: 1200px){
+    .logo{
+        font-size: 40px;
+        margin-left: 30px;
+        border: solid 7px;
+    }
+
+    .logoex{
+        font-size: 20px;
+    }
+
+    .logoex2{
+        font-size: 15px;
+    }
+
+    .nav{
+        font-size: 15px;
+    }
+
+    .nav-link{
+        margin: 5px;
+    }
+
+    .inmiddle{
+        max-width: 1165px;
+        margin-left: 15px;
+    }
+}
+
+@media screen and (max-width: 998px){
+    .logo{
+        font-size: 30px;
+        margin-left: 15px;
+        border: solid 7px;
+    }
+
+    .logoex{
+        font-size: 20px;
+    }
+
+    .logoex2{
+        font-size: 25px;
+    }
+
+    .nav{
+        font-size: 10px;
+    }
+
+    .nav-link{
+        margin: 5px;
+    }
+
+    .inmiddle{
+        max-width: 963px;
+        font-size: 10px;
+        margin-left: 15px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .logo{
+        font-size: 30px;
+        margin-left: 15px;
+        border: solid 7px;
+    }
+
+    .logoex{
+        font-size: 15px;
+    }
+
+    .logoex2{
+        font-size: 15px;
+    }
+
+    .nav{
+        font-size: 10px;
+        margin-left: 60px;
+    }
+
+    .nav-link{
+        margin: 5px;
+    }
+
+    .inmiddle{
+        max-width: 733px;
+        margin-left: 15px;
+    }
+
+    .bok{
+        width: 100px;
+        height: 806px;
+    }
+}
+
+@media screen and (max-width: 510px){
+    .logo{
+        font-size: 30px;
+        margin-left: 15px;
+        border: solid 7px;
+        border-radius: 15px;
+    }
+
+    .logoex{
+        font-size: 10px;
+    }
+
+    .logoex2{
+        font-size: 10px;
+    }
+
+    .nav{
+        font-size: 7px;
+        margin-left: 60px;
+    }
+
+    .nav-link{
+        margin: 5px;
+    }
+
+    .inmiddle{
+        max-width: 400px;
+        margin: 20px;
+    }
+
+    .bok{
+        width: 60px;
+        height: 809px;
+    }
+}
+
+@media screen and (max-width: 375px){
+    .logo{
+        font-size: 30px;
+        margin-left:10px;
+        border: solid 5px;
+        border-radius: 15px;
+    }
+
+    .logoex{
+        font-size: 10px;
+    }
+
+    .logoex2{
+        font-size: 10px;
+    }
+
+    .nav{
+        font-size: 7px;
+    }
+
+    .nav-link{
+        margin: 3px;
+    }
+
+    .inmiddle{
+        max-width: 330px;
+        margin: 20px;
+    }
+
+    .bok{
+        width: 50px;
+        height: 813px;
+    }
+}
